@@ -29,6 +29,7 @@ Finally, the data was labeled using [BBox-Label-Tool](https://github.com/puzzled
 The training procedures was implemented on Google Compute Engine instance with Tesla K80 (to use CUDA for training).
 
 The latest weight file (10000 iterations) can be found on this link:
+
 https://drive.google.com/open?id=1nLIT9OwG00tB40QU52_mb-b1dLJ6DujM
 
 It has average loss of 0.2, although it's still needs more training, as it can barely draw the bounding rectangles (in the previous weight file, it couldn't even identify or draw bounding boxes).
